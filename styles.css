@@ -1,0 +1,244 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.main-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 250px;
+  background-color: #000033;
+  border: 1px solid black;
+  width: 100%;
+  padding: 1% 4%;
+}
+
+.top {
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0;
+  width: 200px;
+}
+
+.login-button {
+  position: absolute;
+  right: 5%;
+  border: none;
+  font-size: 12px;
+  color: #FFF;
+  background-color: #000033;
+
+}
+
+.login-words {
+  margin-left: 5px;
+  padding: 5px;
+  line-height: 150%;
+
+}
+
+nav button{
+  width: 40px;
+  height: 40px;
+  background-color: #000033;
+  border: none;
+  background-size: cover;
+  margin: 0 15px;
+}
+
+.button-text {
+  display: none;
+}
+
+.shares-button {
+  background-image: url('cc2images/share.svg');
+}
+
+.playlist-button {
+  background-image: url('cc2images/playlist.svg');
+}
+
+.personal-videos-button {
+  background-image: url('cc2images/avatar.svg');
+}
+
+main {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1% 4%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  box-sizing: border-box;
+  border: 1px solid #817E7E;
+  width: 250px;
+  height: 325px;
+  margin: 0 2px 15px 2px;
+}
+
+p {
+  color: #FFF;
+}
+
+.box-text {
+  margin:0;
+  padding: 5px;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  height: 150px;
+  opacity: 0.4;
+}
+.icon{
+  height: 50px;
+}
+
+.box-header:hover {
+    opacity: 0.8;
+}
+
+.box1 {
+  background: no-repeat url('cc2images/presstwloha.jpg') 60% 10%;
+}
+
+.box2{
+  background: no-repeat url('cc2images/surfertwloha.jpg') 60% 10%;
+}
+
+.box3{
+  background: no-repeat url('cc2images/caseytwloha.png') 60% 10%;
+}
+
+.box4{
+  background: no-repeat url('cc2images/lindseyhorantwloha.png') 60% 10%;
+}
+
+.box5{
+  background: no-repeat url('cc2images/ashdctwloha.png') 60% 10%;
+}
+
+.box6{
+  background: no-repeat url('cc2images/jamiettwloha.png') 60% 10%;
+}
+
+.box7{
+  background: no-repeat url('cc2images/morgantwloha.png') 70% 30%;
+}
+
+.box8{
+  background: no-repeat url('cc2images/jasonpettytwloha.png') 60% 10%;
+}
+
+h3,h4,h5,h6 {
+  margin:2px;
+}
+
+h3, h5 {
+  font-size: 14px;
+}
+
+h4, h6 {
+  font-size: 10px;
+}
+
+h6{
+  margin-top: 10px;
+}
+
+.link-box{
+  margin: 12px 10px;
+  background-color: #E0E0E0;
+  padding: 5px 3px;
+}
+
+a {
+  font-size: 10px;
+  color: black;
+}
+
+@media screen and (min-width: 600px){
+
+  .main-header {
+    display: inline-block;
+    height: 150px;
+  }
+
+  h2 {
+    text-align: left;
+    margin-left: 15px
+  }
+  .login-button {
+    margin-left: 70%;
+  }
+  nav button {
+    width: 16px;
+    height: 16px;
+    margin-top: 85px;
+    margin-right: 100px;
+  }
+
+  .button-text{
+    display: inherit;
+    color: #FFF;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  h1 {
+    float: right;
+    margin-top: 10px;
+    width: 130px;
+  }
+
+  .logo-image {
+    width: 130px;
+  }
+
+  .videos{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .help-align{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 829px){
+  .help-align {
+    display: inherit;
+    width: 250px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:1105px){
+  .help-align {
+    display:none;
+  }
+}
