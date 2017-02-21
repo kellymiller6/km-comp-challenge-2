@@ -37,7 +37,12 @@ h1 {
   font-size: 12px;
   color: #FFF;
   background-color: #000033;
+}
 
+.arrow {
+  position: absolute;
+  right: 0;
+  top: 7px;
 }
 
 .login-words {
