@@ -98,12 +98,18 @@ article {
   box-sizing: border-box;
   border: 1px solid #817E7E;
   width: 250px;
-  height: 325px;
+  height: 350px;
   margin: 0 2px 15px 2px;
 }
 
 p {
   color: #FFF;
+}
+
+.attach {
+  color:grey;
+  font-size: 24px;
+  margin-top: 3px;
 }
 
 .box-text {
